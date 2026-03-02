@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+:root {
+  /* Base / Background */
+  --color-bg-main: #111111;
+
+  /* Borders / Dividers */
+  --color-border-divider: rgba(255, 255, 255, 0.1);
+
+  /* Search */
+  --color-search-bg: rgba(255, 255, 255, 0.08);
+  --color-search-placeholder: #9a9a9a;
+}
+
+@theme {
+  --color-bg-main: var(--color-bg-main);
+  --color-search-bg: var(--color-search-bg);
+  --color-search-placeholder: var(--color-search-placeholder);
+  --color-border-divider: var(--color-border-divider);
+}
+
+@layer base {
+  body {
+    font-family:
+      Inter,
+      "SF Pro Display",
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      sans-serif;
+  }
+}
