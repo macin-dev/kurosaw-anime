@@ -3,7 +3,7 @@ import { FiSearch } from "react-icons/fi";
 export default function Search() {
   return (
     <label
-      className="ring-search-placeholder focus-within:shadow-search-placeholder bg-search-bg flex items-center gap-2 rounded-lg px-2.5 py-2 ring-1 focus-within:shadow-md"
+      className="ring-search-placeholder focus-within:shadow-search-placeholder bg-search-bg flex items-center gap-2 rounded-lg p-2.5 ring-1 focus-within:shadow-md"
       htmlFor="search"
     >
       <FiSearch className="text-search-placeholder" />
@@ -21,7 +21,7 @@ export default function Search() {
 
 export function SearchContainer() {
   return (
-    <div className="ml-auto hidden md:block">
+    <div className="hidden grow lg:block">
       <Search />
     </div>
   );

@@ -5,6 +5,7 @@
   --color-bg-main: #111111;
 
   /* Borders / Dividers */
+  --color-button-secondary-bg: #1a1a1a;
   --color-border-divider: rgba(255, 255, 255, 0.1);
 
   /* Search */
@@ -17,6 +18,7 @@
   --color-search-bg: var(--color-search-bg);
   --color-search-placeholder: var(--color-search-placeholder);
   --color-border-divider: var(--color-border-divider);
+  --color-button-secondary-bg: var(--color-button-secondary-bg);
 }
 
 @layer base {

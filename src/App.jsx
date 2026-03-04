@@ -1,10 +1,13 @@
+import Container from "./layouts/Container";
 import Navbar from "./layouts/Nabvar";
 
 export default function App() {
   return (
-    <section className="bg-bg-main min-h-dvh">
+    <section className="min-h-dvh">
       <Navbar />
-      <main className="text-white">Welcome!</main>
+      <Container>
+        <main className="px-7 text-white xl:px-0">Welcome!</main>
+      </Container>
     </section>
   );
 }
